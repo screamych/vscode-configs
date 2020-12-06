@@ -1,0 +1,37 @@
+{
+  "editor.renderControlCharacters": false,
+  "editor.rulers": [
+   80,
+   120
+  ],
+  "editor.renderWhitespace": "boundary",
+  "editor.trimAutoWhitespace": true,
+  "files.exclude": {
+
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/*.pyc": true,
+    "**/__pycache__": true,
+    ".cache": true,
+    ".pytest*": true,
+    ".coverage": true,
+    "venv": true,
+    "*.egg-info": true,
+    ".eggs": true,
+    "build": true,
+    "typings": true
+  },
+  "python.pythonPath": "${workspaceRoot}/venv/bin/python",
+  "python.linting.pep8Enabled": true,
+  "python.linting.pep8Path": "${workspaceRoot}/venv/bin/pep8",
+  "python.linting.pylintEnabled": true,
+  "python.linting.pylintPath": "${workspaceRoot}/venv/bin/pylint",
+  "python.testing.pytestEnabled": true,
+  "python.linting.prospectorEnabled": false,
+  "python.testing.pytestPath": "${workspaceRoot}/venv/bin/py.test",
+  "python.testing.pytestArgs": [
+    "tests/"
+  ],
+  "python.linting.enabled": true
+}
+
